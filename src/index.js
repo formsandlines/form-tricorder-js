@@ -3,12 +3,14 @@ import 'bootstrap';
 import ClipboardJS from 'clipboard';
 let clipboard = new ClipboardJS('.clipboard-btn');
 
+import {show, hide, hideAll, toggle, isVisible, save, getTimestamp, scaleSVG, permuteArray, equalArrays} from 'formsandlines-utils';
+
 import './scss/index.scss';
-import {show, hide, hideAll, toggle, isVisible, save, getTimestamp, scaleSVG, permuteArray, equalArrays} from './common/helper';
 
 import formform from './lib/formform';
 
 import {valueTableWizard, classnames_DEF as tableClasses} from './ff-tables';
+
 
 const txtboxID = 'form_entry';
 const vmapID = {cont: 'vmap-output', render: 'vmap-render', perspBtn: 'vmap-perspBtn'};

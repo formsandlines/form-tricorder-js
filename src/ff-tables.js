@@ -1,6 +1,6 @@
 import formform from './lib/formform';
 
-import { processLabel } from './common/helper';
+import { processLabel } from 'formsandlines-utils';
 
 export const loc_EN = {variables: 'Variables', interpretation: 'Interpretation', result: 'Result'};
 
@@ -80,7 +80,8 @@ export function genValueTable(interpr, opts) { // !old args: (interpr, lang, cla
         const delim = i < 1 ? ',' : '', sep = delim;
         // console.log(p);
         if (i === 0) p = p.split(delim).map(lbl => processLabel(lbl)).join(delim);
-        return p.split(delim).join(`</span>${sep}<span>`).concat(`</span>`).addBefore(0,`<span>`); 
+        const str = p.split(delim).join(`</span>${sep}<span>`).concat(`</span>`);
+        return addBefore(str, 0,`<span>`); 
       } );
       return parts;
     });
