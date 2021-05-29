@@ -1,5 +1,5 @@
-// import formform from '../lib/main';
-let formform = require('./lib/formform.js');
+import formform from './lib/formform';
+
 import { processLabel } from './common/helper';
 
 export const loc_EN = {variables: 'Variables', interpretation: 'Interpretation', result: 'Result'};

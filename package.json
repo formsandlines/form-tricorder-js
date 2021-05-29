@@ -1,6 +1,6 @@
 {
     "name": "form-tricorder",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Webbased tool to calculate, analyze and visualize 4-valued FORMs of the FORM calculus introduced by Ralf Peyn in uFORM iFORM",
     "keywords": [
         "uFORM iFORM",

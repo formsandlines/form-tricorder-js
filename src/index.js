@@ -1,13 +1,12 @@
 import 'bootstrap';
 
-let ClipboardJS = require('clipboard');
+import ClipboardJS from 'clipboard';
 let clipboard = new ClipboardJS('.clipboard-btn');
 
 import './scss/index.scss';
 import {show, hide, hideAll, toggle, isVisible, save, getTimestamp, scaleSVG, permuteArray, equalArrays} from './common/helper';
 
-// import formform from './lib/main';
-let formform = require('./lib/formform.js');
+import formform from './lib/formform';
 
 import {valueTableWizard, classnames_DEF as tableClasses} from './ff-tables';
 
