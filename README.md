@@ -26,6 +26,6 @@ If you want to support my work, consider [buying me a coffee](https://www.buymea
 
 ---
 
-(c) 2018–2021 by Peter Hofmann
+(c) 2018–2022 by Peter Hofmann
 
 License: MIT
